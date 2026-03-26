@@ -35,3 +35,49 @@ Pipeline ini terdiri dari tiga tahap utama:
 ├── main.py             # File utama untuk menjalankan pipeline
 ├── requirements.txt    # Daftar library yang dibutuhkan
 └── products.csv        # Hasil akhir dataset (output)
+
+----
+
+⚙️ Cara Instalasi & Penggunaan
+Clone Repositori
+
+Bash
+git clone [https://github.com/username-kamu/nama-repo.git](https://github.com/username-kamu/nama-repo.git)
+cd nama-repo
+Instalasi Library
+Pastikan Python sudah terinstal di komputer Anda, lalu jalankan:
+
+Bash
+pip install -r requirements.txt
+Jalankan Pipeline ETL
+Eksekusi perintah berikut untuk memulai proses pengambilan hingga penyimpanan data:
+
+Bash
+python main.py
+Menjalankan Pengujian (Testing)
+Untuk memastikan semua fungsi (Extract, Transform, Load) berjalan normal, jalankan:
+
+Bash
+pytest tests/
+Atau untuk melihat laporan cakupan tes (coverage):
+
+Bash
+coverage run -m pytest tests/
+📊 Hasil Akhir
+Data yang telah diproses akan disimpan dalam file products.csv dengan struktur kolom sebagai berikut:
+
+title: Nama produk.
+
+price: Harga dalam format Rupiah (IDR).
+
+rating: Skor penilaian produk.
+
+colors: Jumlah varian warna yang tersedia.
+
+size: Ukuran produk.
+
+gender: Kategori target (Men/Women/Unisex).
+
+timestamp: Waktu saat data diambil.
+
+Proyek ini dikembangkan sebagai bagian dari portofolio Data Engineering untuk menunjukkan kemampuan dalam pengolahan data menggunakan Python.
