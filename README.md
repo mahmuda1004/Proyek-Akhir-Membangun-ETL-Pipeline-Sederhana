@@ -68,23 +68,20 @@ pytest tests/
 ```
 Atau untuk melihat laporan cakupan tes (coverage):
 
-Bash
+```Bash
 coverage run -m pytest tests/
-📊 Hasil Akhir
+```
+
+### 📊 Hasil Akhir
 Data yang telah diproses akan disimpan dalam file products.csv dengan struktur kolom sebagai berikut:
-
+```
 title: Nama produk.
-
 price: Harga dalam format Rupiah (IDR).
-
 rating: Skor penilaian produk.
-
 colors: Jumlah varian warna yang tersedia.
-
 size: Ukuran produk.
-
 gender: Kategori target (Men/Women/Unisex).
-
 timestamp: Waktu saat data diambil.
+```
 
 Proyek ini dikembangkan sebagai bagian dari portofolio Data Engineering untuk menunjukkan kemampuan dalam pengolahan data menggunakan Python.
