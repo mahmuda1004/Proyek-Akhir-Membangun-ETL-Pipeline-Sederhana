@@ -36,29 +36,36 @@ Pipeline ini terdiri dari tiga tahap utama:
 ├── requirements.txt    # Daftar library yang dibutuhkan
 └── products.csv        # Hasil akhir dataset (output)
 
-----
+```
 
-⚙️ Cara Instalasi & Penggunaan
-Clone Repositori
+## ⚙️ Cara Instalasi & Penggunaan
+### Clone Repositori
 
-Bash
-git clone [https://github.com/username-kamu/nama-repo.git](https://github.com/username-kamu/nama-repo.git)
-cd nama-repo
+```Bash
+git clone [https://github.com/mahmuda1004/Proyek-Akhir-Membangun-ETL-Pipeline-Sederhana.git](https://github.com/mahmuda1004/Proyek-Akhir-Membangun-ETL-Pipeline-Sederhana.git)
+```
+cd Proyek-Akhir-Membangun-ETL-Pipeline-Sederhana
 Instalasi Library
 Pastikan Python sudah terinstal di komputer Anda, lalu jalankan:
 
+```
 Bash
 pip install -r requirements.txt
+```
 Jalankan Pipeline ETL
 Eksekusi perintah berikut untuk memulai proses pengambilan hingga penyimpanan data:
 
+```
 Bash
 python main.py
+```
 Menjalankan Pengujian (Testing)
 Untuk memastikan semua fungsi (Extract, Transform, Load) berjalan normal, jalankan:
 
+```
 Bash
 pytest tests/
+```
 Atau untuk melihat laporan cakupan tes (coverage):
 
 Bash
